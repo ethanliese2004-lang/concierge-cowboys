@@ -54,6 +54,7 @@ export default function QuoteForm() {
         <div className="form-box">
           <form name="quote-request" onSubmit={handleSubmit} data-netlify="true">
             <input type="hidden" name="form-name" value="quote-request" />
+            <input type="hidden" name="bot-field" />
             <div className="form-row">
               <div className="form-group">
                 <label htmlFor="fn">First Name *</label>
