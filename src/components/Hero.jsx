@@ -109,13 +109,11 @@ export default function Hero() {
         ref={canvasRef}
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 2 }}
       />
-      <div className="hero-content">
-        <div style={{ opacity: fadeIn ? 1 : 0, transition: 'opacity 1.8s ease' }}>
+      <div className="hero-content" style={{ opacity: fadeIn ? 1 : 0, transition: 'opacity 1.8s ease' }}>
           <div className="hero-tagline">
             <div className="shoot-line"><span className="shoot-text">Shoot with Competence.</span></div>
             <span className="carry-line">Carry with Confidence.</span>
           </div>
-        </div>
         <div className="hero-divider">★ ★ ★ ★ ★</div>
         <span className="hero-badge">Arizona&apos;s Premier Firearms Training</span>
         <p className="hero-sub" style={{ marginTop: 16 }}>
