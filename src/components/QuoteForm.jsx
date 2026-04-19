@@ -58,11 +58,11 @@ export default function QuoteForm() {
             <div className="form-row">
               <div className="form-group">
                 <label htmlFor="fn">First Name *</label>
-                <input type="text" id="fn" name="first_name" placeholder="John" required value={form.first_name} onChange={handleChange} />
+                <input type="text" id="fn" name="first_name" placeholder="John" required maxLength={50} value={form.first_name} onChange={handleChange} />
               </div>
               <div className="form-group">
                 <label htmlFor="ln">Last Name *</label>
-                <input type="text" id="ln" name="last_name" placeholder="Smith" required value={form.last_name} onChange={handleChange} />
+                <input type="text" id="ln" name="last_name" placeholder="Smith" required maxLength={50} value={form.last_name} onChange={handleChange} />
               </div>
             </div>
             <div className="form-row">
@@ -113,7 +113,7 @@ export default function QuoteForm() {
             </div>
             <div className="form-group">
               <label htmlFor="msg">Anything Else?</label>
-              <textarea id="msg" name="message" placeholder="Questions, group size, scheduling needs..." value={form.message} onChange={handleChange} />
+              <textarea id="msg" name="message" placeholder="Questions, group size, scheduling needs..." maxLength={1000} value={form.message} onChange={handleChange} />
             </div>
             <div className="form-submit">
               <button type="submit" className="btn-primary">Send My Quote Request →</button>

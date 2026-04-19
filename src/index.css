@@ -128,11 +128,58 @@ footer p{color:var(--muted);font-size:0.8rem;}
 .final-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:28px 0 18px;}
 .final-tagline{font-family:var(--serif);color:var(--gold);font-size:0.85rem;letter-spacing:0.08em;}
 
+/* HAMBURGER */
+.nav-hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;cursor:pointer;padding:8px;z-index:110;}
+.hamburger-bar{display:block;width:24px;height:2px;background:var(--gold);transition:transform 0.25s,opacity 0.25s;}
+.nav-mobile-menu{display:none;}
+
 @media(max-width:768px){
+  /* Nav */
+  .site-nav{padding:14px 20px;flex-wrap:wrap;position:fixed;}
+  .nav-links{display:none;}
+  .nav-hamburger{display:flex;}
+  .nav-mobile-menu{
+    display:flex;flex-direction:column;
+    position:fixed;top:72px;left:0;right:0;
+    background:rgba(10,8,5,0.97);
+    border-bottom:1px solid var(--border);
+    z-index:99;padding:12px 0;
+  }
+  .nav-mobile-menu a{
+    color:var(--cream);text-decoration:none;
+    font-size:0.9rem;letter-spacing:0.08em;text-transform:uppercase;
+    padding:14px 24px;border-bottom:1px solid var(--border);
+  }
+  .nav-mobile-menu a:last-child{border-bottom:none;color:var(--gold);font-weight:700;}
+
+  /* Layout */
   .carousel-side-photo{display:none;}
   .who-grid{grid-template-columns:1fr;}
   .form-row{grid-template-columns:1fr;}
-  .nav-links{display:none;}
+  .classes-grid{grid-template-columns:1fr;}
+  .bring-grid{gap:24px;}
+  .diff-grid{grid-template-columns:1fr 1fr;}
+  .testi-grid{grid-template-columns:1fr;}
+
+  /* Spacing */
+  .who-section,.diff-section,.testi-section,.first-class-section,.bring-section{padding:48px 16px;}
+  .carousel-section{padding:48px 16px 32px;}
+  .quote-section{padding:48px 16px;}
+  .final-cta{padding:48px 16px;}
+  .form-box{padding:20px 16px;}
+
+  /* Images */
+  .cards-grid{grid-template-columns:1fr;}
+  img{max-width:100%;height:auto;}
+
+  /* Hero */
+  .hero-content{padding:100px 16px 40px;}
+  .hero-sub{font-size:0.95rem;}
+  .hero-ctas{flex-direction:column;align-items:center;}
+  .btn-primary,.btn-outline{width:100%;max-width:320px;text-align:center;display:block;}
+
+  /* Buttons */
+  .final-btns{flex-direction:column;align-items:center;}
 }
 
 /* legacy vite vars below (unused) */
