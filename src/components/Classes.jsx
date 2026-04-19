@@ -1,4 +1,4 @@
-import carouselLeft from '../images/carousel-left.jpg'
+import carouselLeft from '../images/IMG_2806.jpg'
 import carouselRight from '../images/carousel-right.jpg'
 
 const classes = [
