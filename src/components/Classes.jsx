@@ -3,10 +3,10 @@ import carouselRight from '../images/carousel-right.jpg'
 
 const classes = [
   {
-    tag: 'Beginner · 4-Hour Classroom',
+    tag: 'Beginner · 2-Hour Classroom',
     title: 'CCW Class',
     price: 80,
-    desc: 'A 4-hour classroom-only course designed to help you earn your concealed carry permit and truly understand the fundamentals. You\'ll learn safe carry principles, Arizona CCW law, and walk away with a personalized home protection plan.',
+    desc: 'A roughly 2-hour classroom-only course designed to help you earn your concealed carry permit and truly understand the fundamentals. You\'ll learn safe carry principles, Arizona CCW law, and walk away with a personalized home protection plan.',
     bring: 'Jeans, T-shirt, notepad.',
     popular: false,
   },
