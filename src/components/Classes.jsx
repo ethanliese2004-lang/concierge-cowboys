@@ -56,8 +56,8 @@ const classes = [
 export default function Classes() {
   return (
     <section className="carousel-section" id="classes">
-      <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-        <span className="section-label">All Programs &amp; Pricing</span>
+      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+        <h2 style={{ fontFamily: "'Rye', serif", color: 'var(--gold)', fontSize: 'clamp(1.6rem, 3vw, 2.4rem)', letterSpacing: '0.04em' }}>All Programs &amp; Pricing</h2>
       </div>
       <div className="carousel-header-inner">
         <div className="carousel-side-photo carousel-side-photo--left">
