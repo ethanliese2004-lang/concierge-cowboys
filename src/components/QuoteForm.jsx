@@ -45,8 +45,7 @@ export default function QuoteForm() {
     <section className="quote-section" id="quote">
       <div className="quote-inner">
         <div style={{ textAlign: 'center' }}>
-          <span className="section-label">Get a Quote</span>
-          <h2>Tell us what you <span>need.</span></h2>
+          <span className="section-label" style={{ fontSize: '1rem', letterSpacing: '0.2em' }}>Get a Quote</span>
           <p className="body-text" style={{ margin: '0 auto 4px', textAlign: 'center' }}>
             Select the class(es) you&apos;re interested in and we&apos;ll respond within 24 hours.
           </p>

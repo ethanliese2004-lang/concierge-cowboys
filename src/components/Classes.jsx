@@ -62,7 +62,6 @@ export default function Classes() {
         </div>
         <div className="carousel-header-text">
           <span className="section-label">All Programs &amp; Pricing</span>
-          <h2>Find the class that&apos;s <span>right for you.</span></h2>
         </div>
         <div className="carousel-side-photo carousel-side-photo--right">
           <img src={carouselRight} alt="" />

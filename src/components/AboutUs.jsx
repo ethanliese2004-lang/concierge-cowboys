@@ -19,7 +19,7 @@ export default function AboutUs() {
             <span className="instructor-role">CEO &amp; Founder</span>
             <h3 className="instructor-name">Ethan</h3>
             <p className="instructor-bio">
-              Ethan is an Arizona native who studied communications at ASU and is very knowledgeable and passionate about all courses and topics provided. He lives on his horse ranch in Cave Creek, managing and working horses by day and shooting under analog at night. He is dedicated to his work and wants to share his love for the industry with everyone.
+              Ethan is an Arizona native who studied communications at ASU and is very knowledgeable and passionate about all courses and topics provided. He lives on his horse ranch in Cave Creek, managing and working horses by day and shooting under analog at night. He is dedicated to his work and wants to share his love for the industry with everyone. Follow along at <a href="https://www.instagram.com/conciergecowboys" target="_blank" rel="noreferrer" className="instructor-handle">@conciergecowboys</a>.
             </p>
           </div>
           <div className="instructor-card">
