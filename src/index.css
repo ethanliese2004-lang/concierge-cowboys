@@ -70,7 +70,8 @@ h2 span{color:var(--gold);}
 .card-price{font-size:2.2rem;font-weight:700;color:var(--cream);}
 .card-price sup{font-size:1rem;vertical-align:top;margin-top:8px;display:inline-block;color:var(--muted);}
 .card-body{margin-top:16px;border-top:1px solid var(--border);padding-top:16px;}
-.card-desc{font-size:0.88rem;line-height:1.65;color:rgba(245,240,232,0.7);margin-bottom:18px;}
+.card-desc{font-size:0.88rem;line-height:1.65;color:rgba(245,240,232,0.7);margin-bottom:12px;}
+.card-bring{font-size:0.82rem;line-height:1.6;color:rgba(245,240,232,0.55);margin-bottom:18px;}
 .card-cta{color:var(--gold);font-size:0.8rem;letter-spacing:0.06em;text-decoration:none;}
 
 /* SECTIONS */

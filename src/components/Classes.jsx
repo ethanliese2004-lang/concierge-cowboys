@@ -7,6 +7,7 @@ const classes = [
     title: 'CCW Class',
     price: 80,
     desc: 'A 4-hour classroom-only course designed to help you earn your concealed carry permit and truly understand the fundamentals. You\'ll learn safe carry principles, Arizona CCW law, and walk away with a personalized home protection plan.',
+    bring: 'Jeans, T-shirt, notepad.',
     popular: false,
   },
   {
@@ -14,35 +15,40 @@ const classes = [
     title: 'CCW Class + Range Time',
     price: 175,
     desc: 'Everything in the standard CCW class plus a 50-round live range qualification to apply your knowledge in real conditions. You leave with both a permit-ready education and proven trigger time.',
+    bring: 'Jeans, T-shirt, closed-toe shoes, handgun, 50 rounds. A handgun can be provided at the request of the student for an extra charge of $20 for ammo. Eyes and ears provided.',
     popular: true,
     descHighlight: true,
   },
   {
     tag: 'Beginner · Rifle + Range',
     title: 'Rifle Range Class',
-    price: 50,
+    price: 180,
     desc: 'A foundational rifle course covering safe handling, proper manipulation, and the core mechanics of operating a rifle with confidence. Live range time is built in to reinforce everything learned.',
+    bring: 'Jeans, T-shirt, closed-toe shoes, rifle, 200 rounds. A rifle can be provided for an extra charge of $100 for ammo.',
     popular: false,
   },
   {
     tag: 'Advanced · Night Vision · No Live Fire',
     title: 'Night Vision 101',
-    price: 200,
+    price: 250,
     desc: 'Learn how to walk, run, read, and handle a firearm under NVGs. No live fire — empty rifles and dummy guns throughout. Explore rifle set-ups for night vision and develop a solid understanding of height over bore. Required before Night Vision 202.',
+    bring: 'Jeans, T-shirt, closed-toe shoes, pen and notepad. Night vision provided — white phosphor dual tube analog night vision, both Gen 2+ and Gen 3 available.',
     popular: false,
   },
   {
     tag: 'Advanced · Night Vision · Live Fire',
     title: 'Night Vision 202',
-    price: 250,
-    desc: 'Experience analog night vision with dual tubes, IR lights, and IR lasers. Shoot both passively and actively, and deepen your mastery of height over bore. Night vision optics and firearms provided. NV 101 prerequisite required.',
+    price: 450,
+    desc: 'Experience analog night vision with dual tubes, IR lights, and IR lasers. Shoot both passively and actively, and deepen your mastery of height over bore. Rifle and night vision provided. NV 101 prerequisite required.',
+    bring: 'Jeans, T-shirt, closed-toe shoes. Rifle and night vision will be provided.',
     popular: false,
   },
   {
     tag: 'Private · Fully Custom',
     title: '1 v 1 Coaching',
-    price: 100,
+    price: '125/hr',
     desc: 'A personalized coaching session built entirely around you. Buying your first gun, learning to shoot, cleaning your firearm, or anything in between — no limitations to the service we can provide.',
+    bring: 'Based on your needs, we will discuss a plan of action and tailor what to bring based on what we are doing.',
     popular: false,
   },
 ]
@@ -70,6 +76,7 @@ export default function Classes() {
             <div className="card-price"><sup>$</sup>{cls.price}</div>
             <div className="card-body">
               <p className="card-desc">{cls.desc}</p>
+              <p className="card-bring"><strong>What to bring:</strong> {cls.bring}</p>
               <a href="#quote" className="card-cta">Book This Class →</a>
             </div>
           </div>
