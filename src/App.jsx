@@ -2,7 +2,6 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Classes from './components/Classes'
 import FirstClass from './components/FirstClass'
-import Testimonials from './components/Testimonials'
 import QuoteForm from './components/QuoteForm'
 import FinalCTA from './components/FinalCTA'
 import Footer from './components/Footer'
@@ -14,7 +13,6 @@ export default function App() {
       <Hero />
       <Classes />
       <FirstClass />
-      <Testimonials />
       <QuoteForm />
       <FinalCTA />
       <Footer />
