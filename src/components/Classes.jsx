@@ -65,7 +65,6 @@ export default function Classes() {
       <div className="cards-grid">
         {classes.map((cls) => (
           <div key={cls.title} className={`class-card${cls.popular ? ' card-popular' : ''}`}>
-            {cls.popular && <div className="popular-badge">MOST POPULAR</div>}
             <span className="card-tag">{cls.tag}</span>
             <div className="card-title">{cls.title}</div>
             <div className="card-price"><sup>$</sup>{cls.price}</div>
