@@ -4,16 +4,14 @@ export default function AboutUs() {
       <div className="section-inner">
 
         <div style={{ textAlign: 'center', marginBottom: '64px' }}>
-          <span className="section-label">About Us</span>
-          <h2>Who we <span>are.</span></h2>
-          <p className="body-text" style={{ margin: '20px auto 0', textAlign: 'center', maxWidth: '720px' }}>
+          <span className="section-label" style={{ fontSize: '0.85rem' }}>About Us</span>
+          <p className="body-text" style={{ margin: '16px auto 0', textAlign: 'center', maxWidth: '720px' }}>
             Concierge Cowboys wants to bring the knowledge and experience of shooting under night vision to the general public. We provide everything from the night vision units themselves, rifles, and custom shooting ranges to exceed and provide an immersive experience into the world of analog night vision. We offer classroom courses, shooting instruction, CCW classes, rifle courses, night vision off road adventures, shooting under NODs, and one on one coaching sessions to meet everyone's need — whether you are brand new to firearms or very experienced and want to expand your expertise, we will guarantee satisfaction and a once in a lifetime shooting experience.
           </p>
         </div>
 
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-          <span className="section-label">Our Instructors</span>
-          <h2>The people <span>behind it.</span></h2>
+          <span className="section-label" style={{ fontSize: '0.85rem' }}>Our Instructors</span>
         </div>
 
         <div className="instructors-grid">
