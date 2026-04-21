@@ -31,7 +31,7 @@ const classes = [
     tag: 'Advanced · Night Vision · No Live Fire',
     title: 'Night Vision 101',
     price: 250,
-    desc: 'Learn how to walk, run, read, and handle a firearm under NVGs. No live fire — empty rifles and dummy guns throughout. Explore rifle set-ups for night vision and develop a solid understanding of height over bore. Required before Night Vision 202.',
+    desc: 'Learn the history and application of modern night vision goggles and play with some yourself! You\'ll learn how the technology works, the difference between various generations as well as the primary components that make up a night observation device before finally getting to hike with a NVG of your choosing in the beautiful Sonoran desert. Required before taking any more advanced NV classes.',
     bring: 'Jeans, T-shirt, closed-toe shoes, pen and notepad. Night vision provided — white phosphor dual tube analog night vision, both Gen 2+ and Gen 3 available.',
     popular: false,
   },
