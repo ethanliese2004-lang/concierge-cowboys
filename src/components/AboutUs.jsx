@@ -19,7 +19,16 @@ export default function AboutUs() {
             <span className="instructor-role">CEO &amp; Founder</span>
             <h3 className="instructor-name">Ethan</h3>
             <p className="instructor-bio">
-              Ethan is an Arizona native who studied communications at ASU and is very knowledgeable and passionate about all courses and topics provided. He lives on his horse ranch in Cave Creek, managing and working horses by day and shooting under analog at night. He is dedicated to his work and wants to share his love for the industry with everyone. Follow along at <a href="https://www.instagram.com/conciergecowboys" target="_blank" rel="noreferrer" className="instructor-handle">@conciergecowboys</a>.
+              Ethan is a USCCA-certified firearms instructor and Arizona native who brings real-world experience and professional-level expertise to every course he teaches. With a clear, engaging style and a strong command of the material, he turns complex concepts into practical skills students can confidently apply.
+            </p>
+            <p className="instructor-bio" style={{ marginTop: '14px' }}>
+              As co-owner and manager of Copper Sky Ranch in Cave Creek, Ethan pairs his work in firearms training with hands-on experience managing and working horses — an environment that reinforces discipline, situational awareness, and leadership. By night, he continues refining his craft, often training under night vision, where technical precision meets adaptability in low-light conditions.
+            </p>
+            <p className="instructor-bio" style={{ marginTop: '14px' }}>
+              Ethan is dedicated to developing capable, responsible shooters. His instruction goes beyond the basics, focusing on mindset, safety, and real-world application. If you want training that's grounded, effective, and built on experience — not theory — Ethan delivers.
+            </p>
+            <p className="instructor-bio" style={{ marginTop: '14px' }}>
+              Follow his work on Instagram at <a href="https://www.instagram.com/conciergecowboys" target="_blank" rel="noreferrer" className="instructor-handle">@conciergecowboys</a>.
             </p>
           </div>
           <div className="instructor-card">
