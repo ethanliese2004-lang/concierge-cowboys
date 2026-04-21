@@ -3,10 +3,10 @@ import { useState } from 'react'
 const classOptions = [
   { label: 'CCW Class', price: '$80', value: 'CCW Class - $80' },
   { label: 'CCW + Range Time', price: '$175', value: 'CCW + Range Time - $175' },
-  { label: 'Rifle Range Class', price: '$50', value: 'Rifle Range Class - $50' },
-  { label: 'Night Vision 101', price: '$200', value: 'Night Vision 101 - $200' },
-  { label: 'Night Vision 202', price: '$250', value: 'Night Vision 202 - $250' },
-  { label: '1 v 1 Coaching', price: '$100', value: '1v1 Coaching - $100' },
+  { label: 'Rifle Range Class', price: '$180', value: 'Rifle Range Class - $180' },
+  { label: 'Night Vision 101', price: '$250', value: 'Night Vision 101 - $250' },
+  { label: 'Night Vision 202', price: '$450', value: 'Night Vision 202 - $450' },
+  { label: '1 v 1 Coaching', price: '$125/hr', value: '1v1 Coaching - $125/hr' },
 ]
 
 export default function QuoteForm() {
