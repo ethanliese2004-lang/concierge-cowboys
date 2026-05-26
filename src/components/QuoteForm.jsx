@@ -6,6 +6,7 @@ const classOptions = [
   { label: 'Rifle Range Class', price: '$180', value: 'Rifle Range Class - $180' },
   { label: 'Night Vision 101', price: '$250', value: 'Night Vision 101 - $250' },
   { label: 'Night Vision 202', price: '$450', value: 'Night Vision 202 - $450' },
+  { label: "Blastin' Package", price: '$599', value: "Blastin' Package - $599" },
   { label: '1 v 1 Coaching', price: '$125/hr', value: '1v1 Coaching - $125/hr' },
 ]
 

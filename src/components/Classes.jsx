@@ -44,6 +44,14 @@ const classes = [
     popular: false,
   },
   {
+    tag: 'Day or Night · All Gear Provided',
+    title: "Blastin' Package",
+    price: 599,
+    desc: "For those looking for a straight to the point range day. This class consists of a safety briefing and your selection of multiple handguns, rifles, and shotguns — all included! We will set up a complete custom steel target range along with standard paper targets. We offer this class for both day and night shooting. For night shooting there will be some brief NV 101 info after the safety briefing. Night vision provided.",
+    bring: 'Closed-toe shoes, jeans, T-shirt, water.',
+    popular: false,
+  },
+  {
     tag: 'Private · Fully Custom',
     title: '1 v 1 Coaching',
     price: '125/hr',
